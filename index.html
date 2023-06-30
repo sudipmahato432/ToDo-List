@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    <title>To do List</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>To-do list web Application</h1>
+    </div>
+    <div class="content">
+        <div class="S1">
+            <section class="section-1">
+                <input type="text" name="title" id="title" placeholder="Title" required>
+                <textarea name="Description" id="Description" cols="50" rows="15" placeholder="Description"></textarea>
+                <!-- <input name="submitButton" type="submit" value="Add"> -->
+                <button class="submitButton">Add</button>
+            </section>
+        </div>
+        <div class="S2">
+            <section class="section-2">
+                <input type="radio" class="tabs-radio" name="select-tabs" id="tab1" checked>
+                <label for="tab1" class="tabs-label">Pending Tasks</label>
+
+                    <table class="tab-content" id= "pending-table">
+                        <tr>
+                            <th>Check</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </table>
+                <input type="radio" class="tabs-radio" name="select-tabs" id="tab2">
+                <label for="tab2" class="tabs-label">Completed Tasks</label>
+                    
+                    <table class="tab-content" id="completed-table">
+                        <tr>
+                            <th>Check</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                        
+                    </table>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
