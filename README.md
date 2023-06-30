@@ -8,7 +8,7 @@ __This Project is a part of my CodeClause Web Development Intenship.__
 
 ## **ToDo List UI**
 
-![image](https://github.com/sudipmahato432/OIBSIP_3/assets/80632874/e848f1d9-a220-45ae-ad84-20379af85efd)
+![image](https://github.com/sudipmahato432/ToDo-List/assets/80632874/b5549199-e22a-4701-8340-9d7f2639090c)
 
 
 ## Features
@@ -73,7 +73,7 @@ To mark a completed task as pending, follow these steps:
 
 ## License
 
-This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the terms of the MIT License. See the [LICENSE](https://github.com/sudipmahato432/ToDo-List/blob/main/LICENSE) file for more information.
 
 ---
 
